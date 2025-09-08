@@ -116,7 +116,7 @@ const Index = () => {
             <AnimatedText
               stagger
               delay={0.5}
-              className="text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 sm:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-purple-200 leading-tight px-2"
+              className="text-3xl xs:text-4xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white to-purple-200 leading-tight px-2"
             >
               Muhammad Haseeb Akram
             </AnimatedText>
@@ -454,10 +454,10 @@ const Index = () => {
                 whileHover={{ scale: 1.05, y: -5 }}
                 whileTap={{ scale: 0.95 }}
               >
-                <Button variant="gradient" size="lg" className="group">
+                <a href="mailto:haseebmirxa671@gmail.com" className="inline-flex items-center justify-center gap-2 whitespace-nowrap text-sm font-medium ring-offset-background transition-all duration-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 bg-gradient-primary text-primary-foreground hover:opacity-90 shadow-elegant hover:shadow-lg hover:scale-105 h-11 rounded-md px-8 group">
                   <Mail className="mr-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
                   Send Email
-                </Button>
+                </a>
               </motion.div>
 
               <motion.div
