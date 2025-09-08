@@ -327,7 +327,7 @@ const Index = () => {
               </motion.div>
             </div>
           </CardContent>
-        </AnimatedCard>
+        </AnimatedCard> 
 
         {/* Projects Section */}
         <AnimatedCard  direction="up" delay={0.8}>
